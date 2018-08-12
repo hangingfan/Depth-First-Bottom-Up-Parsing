@@ -1,0 +1,57 @@
+input your input string:
+aaaaabb
+after add-----
+a
+after replace -----
+a
+after add-----
+aa
+after replace -----
+aa
+after add-----
+aaa
+S
+after replace -----
+aaa
+S
+after add-----
+aaaa
+Sa
+aS
+after replace -----
+aaaa
+Sa
+aS
+after add-----
+aaaaa
+Saa
+aSa
+aaS
+after replace -----
+aaaaa
+Saa
+aSa
+aaS
+after add-----
+aaaaab
+Saab
+aSab
+aaSb
+after replace -----
+aaaaab
+Saab
+aS
+aS
+after add-----
+aaaaabb
+Saabb
+aSb
+aSb
+after replace -----
+aaaaabb
+Saabb
+S
+S
+the satified index is -----
+index: 3
+index: 4
