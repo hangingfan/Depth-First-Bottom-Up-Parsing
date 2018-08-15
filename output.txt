@@ -1,57 +1,119 @@
 input your input string:
-aaaaabb
-after add-----
-a
-after replace -----
-a
-after add-----
-aa
-after replace -----
-aa
-after add-----
-aaa
-S
-after replace -----
-aaa
-S
-after add-----
-aaaa
-Sa
-aS
-after replace -----
-aaaa
-Sa
-aS
-after add-----
-aaaaa
-Saa
-aSa
-aaS
-after replace -----
-aaaaa
-Saa
-aSa
-aaS
-after add-----
-aaaaab
-Saab
-aSab
-aaSb
-after replace -----
-aaaaab
-Saab
-aS
-aS
-after add-----
-aaaaabb
-Saabb
-aSb
-aSb
-after replace -----
-aaaaabb
-Saabb
-S
-S
-the satified index is -----
-index: 3
-index: 4
+aaaab
+shifting  <-----:
+              a   aaab
+shifting  <-----:
+             aa   aab
+shifting  <-----:
+           aaa3   ab
+shifting  <-----:
+         aaa3a3   b
+shifting  <-----:
+        aaa3a3b
+unshifting------->
+        aaa3a3b
+unshifting------->
+         aaa3a3   b
+delete the subscript:
+          aaa3a   b
+replace:
+             aS   b
+                        stored replacing character:
+                             S ----> aa3a
+shifting  <-----:
+           aSb1
+                        stored replacing character:
+                             S ----> aa3a
+unshifting------->
+           aSb1
+                        stored replacing character:
+                             S ----> aa3a
+delete the subscript:
+            aSb
+                        stored replacing character:
+                             S ----> aa3a
+replace:
+              S
+                        stored replacing character:
+                             S ----> aSb
+                             S ----> aa3a
+unshifting------->
+              S
+                        stored replacing character:
+                             S ----> aSb
+                             S ----> aa3a
+after unreducing<--->
+            aSb
+                        stored replacing character:
+                             S ----> aa3a
+unshifting------->
+            aSb
+                        stored replacing character:
+                             S ----> aa3a
+unshifting------->
+             aS   b
+                        stored replacing character:
+                             S ----> aa3a
+after unreducing<--->
+          aaa3a   b
+unshifting------->
+          aaa3a   b
+unshifting------->
+           aaa3   ab
+delete the subscript:
+            aaa   ab
+replace:
+              S   ab
+                        stored replacing character:
+                             S ----> aaa
+shifting  <-----:
+             Sa   b
+                        stored replacing character:
+                             S ----> aaa
+shifting  <-----:
+           Sab2
+                        stored replacing character:
+                             S ----> aaa
+unshifting------->
+           Sab2
+                        stored replacing character:
+                             S ----> aaa
+delete the subscript:
+            Sab
+                        stored replacing character:
+                             S ----> aaa
+replace:
+              S
+                        stored replacing character:
+                             S ----> Sab
+                             S ----> aaa
+unshifting------->
+              S
+                        stored replacing character:
+                             S ----> Sab
+                             S ----> aaa
+after unreducing<--->
+            Sab
+                        stored replacing character:
+                             S ----> aaa
+unshifting------->
+            Sab
+                        stored replacing character:
+                             S ----> aaa
+unshifting------->
+             Sa   b
+                        stored replacing character:
+                             S ----> aaa
+unshifting------->
+              S   ab
+                        stored replacing character:
+                             S ----> aaa
+after unreducing<--->
+            aaa   ab
+unshifting------->
+            aaa   ab
+unshifting------->
+             aa   aab
+unshifting------->
+              a   aaab
+finish:----------
